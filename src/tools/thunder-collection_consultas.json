@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "consultas",
+    "collectionId": "ed0a872c-efcc-49e5-8396-1ad39de18710",
+    "dateExported": "2024-05-23T14:26:52.463Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6d4eb792-a6b7-46a4-8596-7c936cef5e7b",
+            "colId": "ed0a872c-efcc-49e5-8396-1ad39de18710",
+            "containerId": "",
+            "name": "crear",
+            "url": "http://localhost:3000/pago",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-23T13:15:11.303Z",
+            "modified": "2024-05-23T14:19:11.115Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"valor\":1000,\n  \"tipo\":\"Efectivo\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8b34bf45-e25a-46f7-b7af-a1f7a7d20ddf",
+            "colId": "ed0a872c-efcc-49e5-8396-1ad39de18710",
+            "containerId": "",
+            "name": "editar",
+            "url": "http://localhost:3000/pago/3",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-05-23T13:34:56.273Z",
+            "modified": "2024-05-23T13:38:12.355Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"valor\":2000,\n  \"tipo\":\"Efectivo\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "52f4b576-8cd2-45cc-8b88-f7ac43099df4",
+            "colId": "ed0a872c-efcc-49e5-8396-1ad39de18710",
+            "containerId": "",
+            "name": "mostrar",
+            "url": "http://localhost:3000/pago",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-23T13:47:12.476Z",
+            "modified": "2024-05-23T13:47:28.256Z",
+            "headers": []
+        },
+        {
+            "_id": "2c22a0bf-9c92-4735-aa93-c7694695d12d",
+            "colId": "ed0a872c-efcc-49e5-8396-1ad39de18710",
+            "containerId": "",
+            "name": "mostrar por id",
+            "url": "http://localhost:3000/pago/3",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-05-23T13:54:16.778Z",
+            "modified": "2024-05-23T14:22:32.332Z",
+            "headers": []
+        },
+        {
+            "_id": "31de76ec-cc27-4a17-8a87-5b950573d0f2",
+            "colId": "ed0a872c-efcc-49e5-8396-1ad39de18710",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "http://localhost:3000/pago/6",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-23T13:58:09.012Z",
+            "modified": "2024-05-23T14:22:45.372Z",
+            "headers": []
+        }
+    ],
+    "ref": "OZ06Ax69VDhLZvqFgayF2vBODN1VmtTrWnURdnjbrVaYvOd0WiNLSqDnpl_pK2AUfs1vsz0xGUzl4Nf8AfbwVw"
+}
